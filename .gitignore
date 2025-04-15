@@ -1,0 +1,72 @@
+# ====================
+# IntelliJ IDEA
+# ====================
+*.iml                   # 모듈 파일
+.idea/
+
+# ====================
+# Build output
+# ====================
+/out/                   # 일반적인 Java build 결과
+/build/                 # Gradle build 결과
+/target/                # Maven build 결과
+
+# ====================
+# Logs and temporary files
+# ====================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# ====================
+# OS-specific files (Windows)
+# ====================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ====================
+# JetBrains specific
+# ====================
+.idea/**/workspace.xml  # 개인 설정 파일
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+
+# ====================
+# VS Code 혹시 같이 쓴다면
+# ====================
+.vscode/
+
+# ====================
+# Environment or tool-specific
+# ====================
+*.class                 # 컴파일된 Java 파일
+*.jar
+*.war
+*.ear
+*.db
+*.sqlite
+*.log
+*.lock
+*.pid
+
+# ====================
+# Kotlin specific
+# ====================
+*.kotlin_module
+
+# ====================
+# Gradle
+# ====================
+.gradle/
+**/build/
+
+# ====================
+# Maven
+# ====================
+.mvn/
+
+
+secrets.yaml
